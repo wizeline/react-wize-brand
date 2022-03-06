@@ -1,3 +1,7 @@
 import React from "react";
-declare const Loader: React.FC;
+declare type Props = {
+    svg?: boolean;
+    width?: string;
+};
+declare const Loader: React.FC<Props>;
 export default Loader;
