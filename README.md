@@ -1,11 +1,12 @@
 # react-wize-brand
+
 React components for Wizeline logos
 
-# Install
+## Install
 
 `yarn add https://github.com/wizeline/react-wize-brand#release`
 
-# Usage
+## Usage
 
 ``` javascript
 import { Loader } from "react-wize-brand";
@@ -19,11 +20,13 @@ function App() {
 }
 ```
 
-# Props:
+## Props:
 
 | Name      | Type    | Default     | Description             |
 | --------- | ------- | ----------- | ----------------------- |
 | **svg**   | boolean | **false**   | Show logo as SVG or PNG |
 | **width** | string  | **'100px'** | Set logo's width        |
 
-# Demo: 
+## Demo:
+
+https://wizeline.github.io/react-wize-brand/?path=/story/react-wize-brand--svg
