@@ -6,6 +6,14 @@ React components for Wizeline logos
 
 `yarn add https://github.com/wizeline/react-wize-brand#release`
 
+## Dependency
+
+This component requires `styled-components` to work, so if your project does not have `styled-components` yet, please install it:
+
+`yarn add styled-components` or `npm install styled-components`
+
+
+
 ## Usage
 
 ``` javascript
