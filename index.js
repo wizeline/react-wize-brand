@@ -1,13 +1,20 @@
-import React from 'react';
-import styled from 'styled-components';
+Object.defineProperty(exports, '__esModule', { value: true });
 
-const LoaderStyle = styled.div `
+var React = require('react');
+var styled = require('styled-components');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
+var styled__default = /*#__PURE__*/_interopDefaultLegacy(styled);
+
+const LoaderStyle = styled__default["default"].div `
   border-radius: 5px;
   color: #fff;
   text-decoration: none;
   text-align: center;
 `;
-const LoaderImage = styled.img `
+const LoaderImage = styled__default["default"].img `
   width: ${(props) => props.width || "100px"};
   margin: 0 auto;
 `;
@@ -18,13 +25,13 @@ var img = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGcAAABGCAYAAADRsYpqAAA
 
 const Loader = (props) => {
     const { svg, width } = props;
-    return (React.createElement("div", null,
-        React.createElement(LoaderStyle, null,
-            React.createElement(LoaderImage, { src: svg ? img$1 : img, width: width }))));
+    return (React__default["default"].createElement("div", null,
+        React__default["default"].createElement(LoaderStyle, null,
+            React__default["default"].createElement(LoaderImage, { src: svg ? img$1 : img, width: width }))));
 };
 Loader.defaultProps = {
     svg: false,
     width: "100px",
 };
 
-export { Loader };
+exports.Loader = Loader;
