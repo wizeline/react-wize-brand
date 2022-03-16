@@ -39,9 +39,8 @@ export default [
     ],
   },
   {
-    input: "dist/esm/index.js",
+    input: "dist/cjs/index.js",
     output: [{ file: "dist/index.js", format: "esm" }],
-    // plugins: [dts()],
     external: [/\.css$/],
   },
   {
